@@ -9,9 +9,24 @@
     <servlet-name>hello-serv</servlet-name>
     <servlet-class>HelloServlet</servlet-class>
   </servlet>
-
+  <servlet>
+    <servlet-name>washington-serv</servlet-name>
+    <servlet-class>WashingtonTimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>age-serv</servlet-name>
+    <servlet-class>AgeServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>hello-serv</servlet-name>
     <url-pattern>/hello-page</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>washington-serv</servlet-name>
+    <url-pattern>/washington</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>age-serv</servlet-name>
+    <url-pattern>/checkAge</url-pattern>
   </servlet-mapping>
 </web-app>
