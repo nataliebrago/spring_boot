@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Малефисента: Повелительница Тёмного Леса</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif; /* Стилистичный шрифт для сказки */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #000000, #4B0082); /* Тёмно-фиолетовый градиент */
+            color: #C0C0C0; /* Серебристый текст */
+            line-height: 1.6;
+        }
+        header {
+            background: #4B0082; /* Тёмно-фиолетовый заголовок */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(75, 0, 130, 0.5);
+        }
+        nav {
+            background: #A9A9A9; /* Серебристая навигация */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #000000; /* Тёмный текст для контраста */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s; /* Плавный переход */
+        }
+        nav a:hover {
+            color: #FFD700; /* Золотистый ховер */
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        section {
+            flex: 2;
+            background: rgba(138, 43, 226, 0.2); /* Полупрозрачный фиолетовый */
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #C0C0C0; /* Серебристая граница */
+        }
+        aside {
+            flex: 1;
+            background: rgba(75, 0, 130, 0.2); /* Тёмно-фиолетовый полупрозрачный */
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #9370DB; /* Средне-фиолетовая граница */
+        }
+        article {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 4px solid #FFD700; /* Золотистый акцент */
+        }
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        figcaption {
+            font-style: italic;
+            margin-top: 10px;
+            color: #DDA0DD; /* Светло-фиолетовый для подписи */
+        }
+        details {
+            margin-top: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        summary {
+            font-weight: bold;
+            color: #FF1493; /* Глубокий розово-фиолетовый */
+            cursor: pointer;
+        }
+        mark {
+            background: #FFD700;
+            color: #000000;
+            padding: 2px 4px;
+        }
+        time {
+            font-style: italic;
+        }
+        footer {
+            background: #000000;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #C0C0C0; /* Серебристая рамка */
+        }
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+            header h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- Заголовок -->
+<header>
+    <h1>Малефисента: Тёмная Фея</h1>
+    <p>Злодейка, ставшая героиней — в исполнении <mark>Анджелины Джоли</mark></p>
+</header>
+
+<!-- Навигация -->
+<nav>
+    <a href="#origin">Происхождение</a>
+    <a href="#powers">Силы</a>
+    <a href="#films">Фильмы</a>
+</nav>
+
+<!-- Основной контент -->
+<main>
+    <!-- Левая секция -->
+    <section id="origin">
+        <h2>История и Происхождение</h2>
+        <article>
+            <h3>Молодость феи</h3>
+            <p>Малефисента — могущественная фея из тёмного леса Мур. В молодости она была доброй и любила природу, но предательство короля Стефана изменило её, превратив в мстительную злодейку.</p>
+        </article>
+
+        <figure>
+            <img src="https://gamebomb.ru/files/galleries/001/4/4c/431946.jpg" alt="Молодость Малефисенты">
+            <figcaption>Анджелина Джоли в роли молодой Малефисенты</figcaption>
+        </figure>
+
+        <details>
+            <summary>Превращение в монстра</summary>
+            <p>Из-за проклятия её крылья были отрезаны, и она превратилась в рогатого зверя, но магия света позволила ей вернуть истинную форму и просветлиться.</p>
+        </details>
+    </section>
+
+    <!-- Правая панель -->
+    <aside id="powers">
+        <h2>Суперспособности</h2>
+        <ul>
+            <li>Магия огня и мороза</li>
+            <li>Полёт и левитация</li>
+            <li>Морфинг (превращение)</li>
+            <li>Заклинания иллюзий</li>
+            <li>Рог-оружие и тьма</li>
+        </ul>
+
+        <h3>Слабости</h3>
+        <p>Чистый свет и предательства, но её сила растёт от мести.</p>
+    </aside>
+</main>
+
+<!-- Футер -->
+<footer id="films">
+    <h2>Фильмы с Анджелиной Джоли</h2>
+    <ul>
+        <li><time>2014</time>: "Малефисента" — Джоли завоевала премии, включая номинацию на Оскар.</li>
+        <li><time>2019</time>: "Малефисента: Повелительница тьмы" — продолжение с Ди Диар и Люком Эвансом.</li>
+    </ul>
+    <p>Анджелина Джоли воплотила этот образ, добавив трагизма и глубины.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teach Me Skills</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000000; /* Чёрный фон */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Полная высота экрана */
+      font-family: Arial, sans-serif; /* Простой шрифт */
+    }
+    .logo {
+      color: #FFFFFF; /* Белый текст по умолчанию */
+      font-size: 4em; /* Большой размер шрифта */
+      font-weight: bold;
+      text-align: center;
+    }
+    .logo::before {
+      content: '<'; /* Левая скобка */
+      color: #FFD700; /* Жёлтый цвет */
+    }
+    .logo::after {
+      content: '/>'; /* Правая скобка и слэш */
+      color: #FFD700; /* Жёлтый цвет */
+    }
+    /* Добавляем разрывы строк для "Teach" / "Me Skills" если нужно, но в изображении это единый текст */
+  </style>
+</head>
+<body>
+<div class="logo">Teach Me Skills</div>
+</body>
+</html>
