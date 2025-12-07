@@ -7,15 +7,15 @@
 
   <servlet>
     <servlet-name>hello-serv</servlet-name>
-    <servlet-class>HelloServlet</servlet-class>
+    <servlet-class>homework24.HelloServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>washington-serv</servlet-name>
-    <servlet-class>WashingtonTimeServlet</servlet-class>
+    <servlet-class>homework24.WashingtonTimeServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>age-serv</servlet-name>
-    <servlet-class>AgeServlet</servlet-class>
+    <servlet-class>homework24.AgeServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>hello-serv</servlet-name>

@@ -1,5 +1,15 @@
+<!DOCTYPE html>
 <html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Книжное приложение</title>
+</head>
 <body>
-<h2>HelloServlet Natalie!</h2>
+<h1>Книги</h1>
+<a href="/books">Скачать книгу</a><br><br>
+<form action="/load-book" method="post" enctype="multipart/form-data">
+    <input type="file" name="bookFile" accept=".txt,.pdf,.epub">
+    <button type="submit">Загрузить книгу</button>
+</form>
 </body>
 </html>

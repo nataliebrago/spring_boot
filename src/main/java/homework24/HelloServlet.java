@@ -1,3 +1,5 @@
+package homework24;
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -13,7 +15,7 @@ public class HelloServlet extends HttpServlet {
         resp.setContentType("text/html");
         Writer writer = resp.getWriter();
         writer.write("Hello World. ");
-        writer.write("This is from HelloServlet.");
+        writer.write("This is from homework24.HelloServlet.");
         writer.close();
     }
 }

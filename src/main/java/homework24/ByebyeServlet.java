@@ -1,3 +1,5 @@
+package homework24;
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -11,6 +13,6 @@ import java.io.IOException;
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
             resp.setContentType("text/html");
-            resp.getWriter().println("<h1>Byebye from ByebyeServlet</h1>");
+            resp.getWriter().println("<h1>Byebye from homework24.ByebyeServlet</h1>");
         }
     }
